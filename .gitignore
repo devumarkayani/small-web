@@ -1,0 +1,27 @@
+# Small Web
+
+A full-stack small-web browser application.
+
+## Technology Stack
+
+- Next.js
+- React
+- TypeScript
+- NestJS
+- MongoDB
+- Mongoose
+
+## Features
+
+- Browse published websites
+- Address bar navigation
+- Back and Forward
+- Browsing history
+- Full-text search
+- Website publishing
+- Secure HTML rendering
+
+## Development
+
+Frontend and backend are maintained separately.
+MongoDB runs locally without Docker.
