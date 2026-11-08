@@ -1,0 +1,6 @@
+{
+  "name": "wyxan-small-web",
+  "private": true,
+  "scripts": {"dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"", "dev:frontend": "npm --prefix frontend run dev", "dev:backend": "npm --prefix backend run start:dev", "seed": "npm --prefix backend run seed"},
+  "devDependencies": {"concurrently": "^9.1.2"}
+}
